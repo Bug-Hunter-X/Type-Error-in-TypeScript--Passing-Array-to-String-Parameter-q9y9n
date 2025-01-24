@@ -1,0 +1,3 @@
+This repository demonstrates a common type error in TypeScript that occurs when passing an array to a function that expects a string. The file 'bug.ts' contains the erroneous code, while 'bugSolution.ts' provides a corrected version.
+
+The issue arises from a mismatch between the function's expected input type (string) and the provided argument (an array of strings). The solution involves either modifying the function to accept an array or changing the function call to pass a single string argument.
